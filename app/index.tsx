@@ -3,9 +3,8 @@ import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <ScrollView >
+    <ScrollView>
       <View style={styles.container}>
-
         <Link href="/page2" style={styles.link}>
           <Text style={styles.linkText}>ไปหน้าที่ 2</Text>
         </Link>
@@ -60,7 +59,7 @@ export default function Index() {
 
         <Link href="/test-greeting" style={styles.link}>
           <Text style={styles.linkText}>Test Greeting</Text>
-        </Link > 
+        </Link>
 
         <Link href="/travel" style={styles.link}>
           <Text style={styles.linkText}>Travel</Text>
@@ -73,14 +72,38 @@ export default function Index() {
         <Link href="/health" style={styles.link}>
           <Text style={styles.linkText}>Health</Text>
         </Link>
-        
+
+        <Link href="/home" style={styles.link}>
+          <Text style={styles.linkText}>Home</Text>
+        </Link>
+
+        <Link href="/flatlistexample" style={styles.link}>
+          <Text style={styles.linkText}>FlatList Example</Text>
+        </Link>
+
+
+        <Link href="/chart" style={styles.link}>
+          <Text style={styles.linkText}>Chart</Text>
+        </Link>
+
+        <Link href="/your-health" style={styles.link}>
+          <Text style={styles.linkText}>Your Health</Text>
+        </Link>
+
+
+
       </View>
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: "center", alignItems: "center", paddingVertical: 50 },
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingVertical: 50,
+  },
   link: {
     margin: 10,
     padding: 10,
