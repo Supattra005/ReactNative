@@ -90,6 +90,11 @@ export default function Index() {
           <Text style={styles.linkText}>Your Health</Text>
         </Link>
 
+         <Link href="/todolist" style={styles.link}>
+          <Text style={styles.linkText}>Todo List</Text>
+        </Link>
+
+
 
 
       </View>
