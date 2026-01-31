@@ -90,9 +90,29 @@ export default function Index() {
           <Text style={styles.linkText}>Your Health</Text>
         </Link>
 
-         <Link href="/todolist" style={styles.link}>
+        <Link href="/todolist" style={styles.link}>
           <Text style={styles.linkText}>Todo List</Text>
         </Link>
+
+        <Link href="/location" style={styles.link}>
+          <Text style={styles.linkText}>Location</Text>
+        </Link>
+
+        <Link href="/location-quiz" style={styles.link}>
+          <Text style={styles.linkText}>Location</Text>
+        </Link>
+
+        <Link href="/ant" style={styles.link}>
+          <Text style={styles.linkText}>heros</Text>
+        </Link>
+
+        <Link href="/Charmander" style={styles.link}>
+          <Text style={styles.linkText}>pokemon</Text>
+        </Link>
+
+
+
+
 
 
 
